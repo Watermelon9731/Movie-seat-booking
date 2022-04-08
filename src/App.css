@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../public/img/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.form-group {
+  background: rgba(40, 35, 35, 0.6);
+}
+
+.form-group label {
+  color: white;
+}
+
+.form-group i {
+  color: red;
+}
+
+.form-group .sign .rec {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.form-group .sign .col-2:last-child .rec::before {
+  content: "";
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 3px solid #ff9800;
+}
+
+.form-group .seat-selection th, .form-group .seat-selection td {
+  border: none;
+}
+
+.form-group .seat-selection .check-box {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: white;
+  cursor: pointer;
+}
+
+.form-group .seat-selection .reserved-box {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: red;
+  cursor: not-allowed;
+}
+
+.form-group .seat-selection .picked-box {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: green;
+  cursor: pointer;
+}
+
+/* .form-group .seat-selection th {
+  font-size: 1rem;
+} */
+
+.form-group .seat-selection td p {
+  margin: 0;
+}
+
+.form-group .seat-selection .check-box::before {
+  content: "";
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 3px solid #ff9800;
+}
+
+
+.form-group .screen {
+  font-weight: bold;
+  font-size: 1.8rem;
+  letter-spacing: 1rem;
+}
